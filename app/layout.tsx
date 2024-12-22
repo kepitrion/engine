@@ -5,6 +5,7 @@ import Footer from "./parts/footer";
 
 const pretendard = localFont({
   src: "../public/fonts/pretendard.woff2",
+  fallback: ["Ubuntu", "Segoe UI", "sans-serif"]
 })
 
 export const metadata: Metadata = {

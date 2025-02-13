@@ -36,10 +36,10 @@ class DefaultParser {
 }
 
 export class Parser {
-  target: string[];
+  targetLines: string[];
 
   constructor(strToParse: string) {
-    this.target = strToParse.split("\n");
+    this.targetLines = strToParse.split("\n");
   }
 
   parse() {
